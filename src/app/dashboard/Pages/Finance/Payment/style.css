@@ -1,0 +1,89 @@
+ input[type="checkbox"]:checked {
+  border: 1px solid red;
+    background-color: green;
+  }
+  #inputBox{
+    background-color: 1px solid red;
+    
+  }
+  .come{
+    background-color: red;
+  }
+.checkbox{
+  background-color: red;
+}
+.altActionButton{
+  display: flex;
+  padding: 12px 16px;
+  margin: 0 20px 0 0;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid var(--primary-default, #305F32);
+  background: var(--grayscale-input, #EFF6F0);
+  color: var(--primary-default, #305F32);
+}
+.altActionButton:active{
+  border: 1px solid var(--grayscale-input, #EFF6F0);
+  background: var(--primary-default, #305F32);
+  color: var(--grayscale-input, #EFF6F0);
+}
+#preTableDiv .selectLabel{
+  color: var(--grayscale-body, #4B664C);
+  margin-bottom: 10px;
+  /* Desktop/Text X-Small Regular */
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+#preTableDiv .selectFilter{
+  width: 216px;
+  height: 48px;
+  display: flex;
+  padding: 14px 14px 12px;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid var(--grayscale-line, #D9E9DA);
+  background: var(--grayscale-bg, #F8F9FB);
+}
+#preTableDiv .selectFilter .placeholder{
+  width: 156px;
+  height: 24px;
+  color: var(--grayscale-body, #4B664C);
+
+  /* Desktop/Text Small Normal */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+}
+#preTableDiv .selectFilter .caret{
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+#preTableDiv .optionBox{
+  height: max-content;
+  width: max-content;
+  border: solid 4px #D9E9DA80;
+
+}
+#preTableDiv .option{
+  width: 216px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-bottom: solid 1px #D9E9DA;
+  font-size: 14px;
+  color: var(--grayscale-body, #4B664C);
+}
+
+#preTableDiv{
+  background:  #F8F9FB;
+}
